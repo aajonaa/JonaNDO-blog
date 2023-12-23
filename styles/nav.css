@@ -1,0 +1,71 @@
+header {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  height: 180px;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-rows: 100px 80px;
+}
+
+header .title {
+  background-color: rgb(249, 244, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr repeat(5, 150px) 1fr;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+}
+
+nav .HOME,
+nav .ABOUT,
+nav .PAGES,
+nav .POSTS,
+nav .CONTACT {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+nav .HOME:hover,
+nav .ABOUT:hover,
+nav .PAGES:hover,
+nav .POSTS:hover,
+nav .CONTACT:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: lightgray;
+}
+
+nav .HOME:hover .tiptool,
+nav .ABOUT:hover .tiptool,
+nav .PAGES:hover .tiptool,
+nav .POSTS:hover .tiptool,
+nav .CONTACT:hover .tiptool {
+  transition: 0.15s;
+  opacity: 1;
+}
+
+.tiptool {
+  position: absolute;
+  white-space: nowrap;
+  border: 1px solid gray;
+  padding: 20px;
+  top: 80px;
+  left: 0;
+  background-color: rgb(209, 240, 243);
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+}
+
