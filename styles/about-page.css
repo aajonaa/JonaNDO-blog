@@ -28,6 +28,11 @@ section div .author-info .profile {
   border-radius: 50px;
 }
 
+section div .author-info .author-time {
+  font-family:'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+
 section p {
   font-size: 25px;
   font-style: italic;
