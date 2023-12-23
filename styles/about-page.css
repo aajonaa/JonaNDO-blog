@@ -1,0 +1,39 @@
+section {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1000px 1fr;
+  background-color: rgb(237, 245, 188);
+}
+
+section .title {
+  margin-top:50px;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+section div .author-info {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 65px 1fr;
+  justify-content: start;
+  align-items: center;
+}
+
+section div .author-info .profile {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 50px;
+}
+
+section p {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.paragraph-space {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}

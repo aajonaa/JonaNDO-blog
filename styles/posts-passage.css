@@ -1,0 +1,85 @@
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50px 1000px 50px;
+  justify-content: center;
+}
+
+section {
+  padding-left: 50px;
+  padding-right: 50px;
+  display:flex;
+  flex-direction: column;
+}
+
+section .info {
+  height: 200px;
+  background-color: white;
+  display: grid;
+  grid-template-rows: repeat(1fr, 2);
+}
+
+section .info .author-info {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 65px 1fr;
+  justify-content: start;
+  align-items: center;
+}
+
+section .info .author-info .profile {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 50px;
+}
+
+section .info .author-info .author-time {
+  font-family:'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+
+section .info .passage-title {
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 40px;
+  color: rgb(19, 98, 99);
+}
+
+section .passage {
+  background-color: white;
+  flex: 1;
+}
+
+section .passage p {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  color:rgb(49, 73, 132);
+}
+
+section .passage img {
+  margin-top: 10px;
+  width: 900px;
+  object-fit: contain;
+  border: 1px solid gray;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+section .passage .fig-statement {
+  text-align: center;
+}
+
+section .passage div {
+  height: 40px;
+}
+
+section .contact {
+  background-color: white;
+  height: 60px;
+}

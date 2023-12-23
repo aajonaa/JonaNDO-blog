@@ -1,0 +1,31 @@
+section {
+  position: relative;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  background-color: rgb(237, 245, 188);
+  grid-auto-rows: 500px;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+section div {
+  margin: 0;
+  background-color: rgb(242, 229, 229);
+  padding: 40px;
+  color: rgb(23, 54, 40);
+}
+
+section div .topic {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+section div .description {
+  font-size: 25px;
+}

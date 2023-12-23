@@ -1,0 +1,31 @@
+section {
+  position: relative;
+}
+
+section .img {
+  width: 100%;
+}
+
+section .left-button {
+  border: 1px solid;
+  padding: 5px 40px;
+  font-size: 30px;
+  position: absolute;
+  background-color: transparent;
+  left: 5px;
+  top: 380px;
+  color: gray;
+  cursor: pointer;
+}
+
+section .right-button {
+  border: 1px solid;
+  padding: 5px 40px;
+  font-size: 30px;
+  position: absolute;
+  background-color: transparent;
+  right: 5px;
+  top: 380px;
+  color: gray;
+  cursor: pointer;
+}

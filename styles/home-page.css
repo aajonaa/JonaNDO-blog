@@ -1,0 +1,38 @@
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .img {
+  width: 100%;
+  height: auto;
+}
+
+section .left-button {
+  left: 5px;
+}
+
+section .right-button {
+  right: 5px;
+}
+
+section .left-button,
+section .right-button {
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid;
+  padding: 5px 40px;
+  font-size: 30px;
+  position: absolute;
+  background-color: lightgray;
+  color: gray;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+section .left-button:hover,
+section .right-button:hover {
+  background-color: white;
+}
