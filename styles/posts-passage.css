@@ -27,6 +27,7 @@ section .info .author-info {
   grid-template-columns: 65px 1fr;
   justify-content: start;
   align-items: center;
+  position: relative;
 }
 
 section .info .author-info .profile {
@@ -35,6 +36,39 @@ section .info .author-info .profile {
   object-fit: cover;
   object-position: left;
   border-radius: 50px;
+  cursor: pointer;
+}
+
+section .info .author-info .profile:hover + .profile-tip{
+  opacity: 1;
+}
+
+
+section .info .author-info .profile-tip {
+  height: 150px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 150px;
+  top: 90px;
+  left: 70px;
+  position: absolute;
+  border: 1px solid gray;
+  pointer-events: none;
+  color: black;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(145, 192, 208);
+}
+
+section .info .author-info .profile-tip img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 150px;
+  margin-right: 10px;
 }
 
 section .info .author-info .author-time {

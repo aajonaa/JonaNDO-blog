@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iPhotos</title>
+    <link rel="stylesheet" href="../../styles/posts-passage.css">
+    <link rel="stylesheet" href="../../styles/general.css">
+    <link rel="stylesheet" href="../../styles/nav.css">
+  </head>
+
+  <body style="padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 0;">
+    <!-- Body container to contain both the header and the body -->
+    <div style="
+      display: flex;
+      justify-content: center;">
+
+      <header style="
+        height: 180px;
+        position: absolute;">
+        <div class="title">JonaNDO-blog</div>
+        <nav>
+          <div class="space"></div>
+          <div class="HOME"><a href="../home-page.html">HOME</a></div>
+          <div class="ABOUT"><a href="../about-page.html">ABOUT</a></div>
+          <div class="PAGES"><a href="../pages-page.html">PAGES</a></div>
+          <div class="POSTS"><a style="color: black" href="../posts-page.html">POSTS</a></div>
+          <div class="CONTACT"><a href="../contact-page.html">CONTACT</a></div>
+        </nav>
+      </header>
+
+      <main style="
+        flex: 1;
+        margin-top: 185px;">
+        <div class="space-col"></div>
+        <section>
+          <div style="height: 50px; background-color: white;"></div>
+          <div class="info">
+            <div class="author-info">
+              <img class="profile" style="object-position: right" src="./3publish-html-with-git/profile.png">
+              <!-- Here is a tiptool which contain a img and description -->
+              <div class="profile-tip">
+                <img src="../posts-passage/3publish-html-with-git/profile.png">
+                <p>A friend from internet added in 2021</p>
+              </div>
+
+              <div class="author-time">Jona Wong &#183; 2023-12-24</div>
+            </div>
+            <div class="passage-title">Code with Git</div>
+          </div>
+
+          <div class="passage">
+            <!-- Every p is a paragraph and if you want a photo below you should write
+              """
+              <p></p>
+              <img src="">
+              <p class="fig-statement"><strong>Fig.2.</strong></p>
+              
+              <div></div>
+              """
+              here div is a space line which set to 20px to separate every paragraph.
+            -->
+            <a href="https://www.youtube.com/watch?v=p1QU3kLFPdg" style="font-style: italic">
+              REF:YouTube tutor video (A good teacher)
+            </a>
+            <p style="
+              font-style: italic;
+              font-weight: bold;
+              font-size: 30px;
+              margin-bottom: 10px;">Overview:</p>
+
+            <p>
+              I write my html file in VSCode and now I want publish it to the website, you can
+              write you code remotely in this way. And now let's start to new a repository and
+              publish my code to the repository which make the code gain the git version control
+              and eventually publish my html in the website. Moreover, I will using look up to
+              check my github sites ip, and add it to my domain name: jonawong.buzz with a subdomain
+              sub which stands for subject I am learning. You should add a CNAME record to your
+              github's sites (where your pages in) after you add ip to your domain which is A record.
+              Don't worry about the word CNAME, it is just a alias of the domain name of your github
+              page domain. There is one more thing needed to be done to make you own domain connected
+              to github page, you will need to setting the page's cutom domain which may take some
+              time to finish.
+            </p>
+
+            <div></div>
+
+            <p>
+              Now let's finished the connection procedure step by step.
+            </p>
+
+            <div></div>
+
+            <p>
+              First make sure you have you html files and you open your folder in VSCode which shows
+              in Fig.1 (index.html file is needed to publish your html files to website).
+            </p>
+            <img src="./3publish-html-with-git/open folder in VS.png">
+            <p class="fig-statement"><strong>Fig.1.</strong>open your folder in VS</p>
+
+            <div></div>
+
+            <p>
+              Now publish your files to Github which make you gained the Git version control
+              features which shows in Fig.2.
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/publish files to Git repo.png">
+            <p class="fig-statement"><strong>Fig.2.</strong> publish files to Git repo</p>
+
+            <div></div>
+
+            <p>
+              Enter your repo's name above created and then all your files will be syned to Git and can
+              using version control features which show in Fig.3.
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/enter repository name.png">
+            <p class="fig-statement"><strong>Fig.3.</strong> enter repository name</p>
+
+            <div></div>
+
+            <p>
+              Go to repository settings after you have your file in the Github repository which shows in Fig.4.
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/repository settings.png">
+            <p class="fig-statement"><strong>Fig.4.</strong> repository settings</p>
+
+            <div></div>
+
+            <p>
+              Go to setttings-Pages-branch to set up your Github Pages for this repository
+              demonstrated in Fig.5.
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/set up Github repo's Pages.png">
+            <p class="fig-statement"><strong>Fig.5.</strong> set up Github repo's Pages</p>
+
+            <div></div>
+
+            <p>
+              You should wait a few minutes to see the htmls files are uploaded to website by Github.
+              So just be patient. See publish success result in Fig.6.
+              result in Fig.6.
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/publish success.png">
+            <p class="fig-statement"><strong>Fig.6.</strong> pulish result</p>
+
+            <div></div>
+
+            <p>
+              Search goole 'DNS lookup tool' and to the the official website and then enter
+              the domain which combined by your project name and the github.io showing as
+              'your-username.github.io' and mine is aajonaa.github.io because my repo's name
+              aajonaa which shows in Fig.7.
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/find the Pages ip by its domain.png">
+            <p class="fig-statement"><strong>Fig.7.</strong> find the Pages ip by its domain</p>
+
+            <div></div>
+
+            <p>
+              Now just copy the ip address and to manage your domain. Creating a A record 
+              connect to the ip. My subdomain is subject and my domain name is <subject class="joanwong buzz">
+              which demonstrated in Fig.8.
+              </subject>
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/creat a A record to connect ip with domain.png">
+            <p class="fig-statement"><strong>Fig.8.</strong> creat a A record to connect ip with domain</p>
+
+            <div></div>
+
+            <p>
+              There is a CNAME record need to add as your alias of the subject.github.io to be the customed domain
+              which showed in Fig.9.
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/add a CNAME record as the alias of Github domain.png">
+            <p class="fig-statement"><strong>Fig.9.</strong> add a CNAME record as the alias of Github domain</p>
+            
+            <div></div>
+
+            <p>
+              Now back to Github repository settings-Pages-custom domain to set your customed domain which demonstrated
+              in Fig.10. Remember there maybe a long time to finish the DNS check process just be patient.
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/set up custom domain in Pages.png">
+            <p class="fig-statement"><strong>Fig.10.</strong> set up custom domain in Pages</p>
+
+            <div></div>
+
+            <p>
+              My DNS check is finished after a long time. And now check if my customed page subject.jonawong.buzz
+              works fine. Wow, that works fine as you can see in Fig.11. You can try doing this by yourself now.
+            </p>
+            <img src="../posts-passage/3publish-html-with-git/finish page.png">
+            <p class="fig-statement"><strong>Fig.11.</strong> finish page</p>
+
+            <div></div>
+
+          <div style="height: 50px; background-color: white; border-bottom: 1px solid gray; margin-bottom: 25px;"></div>
+          <div class="contact">contact</div>
+        </section>
+        <div class="space-col"></div>
+      </main>
+    </div>
+  </body>
+</html>
