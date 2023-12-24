@@ -1,7 +1,7 @@
 section {
   position: relative;
   display: grid;
-  grid-template-columns: 10% 80% 10%;
+  grid-template-columns: 1fr minmax(70%, 1fr) 1fr;
   background-color: rgb(237, 245, 188);
 }
 
