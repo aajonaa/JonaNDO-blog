@@ -1,7 +1,7 @@
 section {
   position: relative;
   display: grid;
-  grid-template-columns: 500px 500px;
+  grid-template-columns: repeat(2, minmax(50%, 1fr));
   background-color: rgb(237, 245, 188);
   grid-auto-rows: 500px;
   justify-content: center;
@@ -19,11 +19,13 @@ section div {
   background-color: rgb(242, 229, 229);
   padding: 40px;
   color: rgb(23, 54, 40);
+  overflow: hidden;
 }
 
 section div .topic {
   font-size: 40px;
   margin-bottom: 20px;
+  overflow-wrap: break-word;
 }
 
 section div .description {
