@@ -8,153 +8,164 @@
   </head>
 
   <body style="padding-left: 100px;
-    padding-right: 100px">
-    <header>
-      <div class="title">JonaNDO-blog</div>
-      <nav>
-        <div class="space"></div>
-        <div class="HOME"><a href="../home-page.html">HOME</a></div>
-        <div class="ABOUT"><a href="../about-page.html">ABOUT</a></div>
-        <div class="PAGES"><a href="../pages-page.html">PAGES</a></div>
-        <div class="POSTS"><a style="color: black" href="../posts-page.html">POSTS</a></div>
-        <div class="CONTACT"><a href="../contact-page.html">CONTACT</a></div>
-      </nav>
-    </header>
+    padding-right: 100px;
+    margin-top: 0;">
+    <!-- Body container to contain both the header and the body -->
+    <div style="
+      display: flex;
+      justify-content: center;">
 
-    <main>
-      <div class="space-col"></div>
-      <section>
-        <div style="height: 50px; background-color: white;"></div>
-        <div class="info">
-          <div class="author-info">
-            <img class="profile" src="../../images/Arnold-Schwarzenegger.jpeg">
-            <div class="author-time">Jona Wong &#183; 2023-12-23</div>
+      <header style="
+        height: 180px;
+        position: absolute;">
+        <div class="title">JonaNDO-blog</div>
+        <nav>
+          <div class="space"></div>
+          <div class="HOME"><a href="../home-page.html">HOME</a></div>
+          <div class="ABOUT"><a href="../about-page.html">ABOUT</a></div>
+          <div class="PAGES"><a href="../pages-page.html">PAGES</a></div>
+          <div class="POSTS"><a style="color: black" href="../posts-page.html">POSTS</a></div>
+          <div class="CONTACT"><a href="../contact-page.html">CONTACT</a></div>
+        </nav>
+      </header>
+
+      <main style="
+        flex: 1;
+        margin-top: 185px;">
+        <div class="space-col"></div>
+        <section>
+          <div style="height: 50px; background-color: white;"></div>
+          <div class="info">
+            <div class="author-info">
+              <img class="profile" src="../../images/Arnold-Schwarzenegger.jpeg">
+              <div class="author-time">Jona Wong &#183; 2023-12-23</div>
+            </div>
+            <div class="passage-title">iPhotos</div>
           </div>
-          <div class="passage-title">iPhotos</div>
-        </div>
 
-        <div class="passage">
-          <!-- Every p is a paragraph and if you want a photo below you should write
-            """
-            <p></p>
-            <img>
+          <div class="passage">
+            <!-- Every p is a paragraph and if you want a photo below you should write
+              """
+              <p></p>
+              <img>
+              <div></div>
+              """
+              here div is a space line which set to 20px to separate every paragraph.
+            -->
+            <p>
+              We often encounter storage problems when using an iphone. 64G and 128G are the most
+              used storage devices because to level up the storage is too expensive. And the
+              most storage-occupied app is photos, how can we store our photos to SSD
+              without losing the high quality and more detailed information such as location,
+              album and spot time. Here is what I am gonna tell you how to do it.
+              Follow me step by step and picture by picture.
+            </p>
+
             <div></div>
-            """
-            here div is a space line which set to 20px to separate every paragraph.
-          -->
-          <p>
-            We often encounter storage problems when using an iphone. 64G and 128G are the most
-            used storage devices because to level up the storage is too expensive. And the
-            most storage-occupied app is photos, how can we store our photos to SSD
-            without losing the high quality and more detailed information such as location,
-            album and spot time. Here is what I am gonna tell you how to do it.
-            Follow me step by step and picture by picture.
-          </p>
 
-          <div></div>
+            <p>
+              Before we dive into the specific process, let me simply explain what I am going to and
+              the reasons why we do it. First we take pictures in iphoto and then the iphoto send the
+              photo to the icloud server. Our Mac will syn the photos by downloading the photos from
+              the icloud server, but the default setting may diff, so we should set the settings which
+              I will detailed below. And then the Mac get the raw photos just like you see it in your
+              iphone. We are just upload the photoslibrary file to the SSD which can be opened by Mac
+              which maintains all the details and the structure. Now we delete the uploaded photos in
+              our iphone because we get a copy of the photos and they stay in our SSD (Remember to
+              delete the photos in your iphone photos trash). We spare the icloud space in this way
+              because the deleted photos in your iphone will deleted in icloud. Actually there will be
+              no photos in you icloud server if you successfully finished the above process. Now let us
+              move to the Mac. Open photos in the way which provided below and then creat a new photoslibrary
+              that end up with the photoslibrary extension. And set the new photoslibrary to be the system
+              photoslibrary because only in this way we can syn photos from the icloud and download the
+              original format to our Mac. Now delete the uploaded photoslibrary and if your iphone still
+              have some photos that did not syned to icloud, it will syned to icloud automatically and
+              then the Mac will download the photos from icloud and after it finished you can creat a
+              new photoslibrary and set it system photoslibrary and upload the syned photoslibrary then
+              delete it to spare space for your Mac.
+            </p>
 
-          <p>
-            Before we dive into the specific process, let me simply explain what I am going to and
-            the reasons why we do it. First we take pictures in iphoto and then the iphoto send the
-            photo to the icloud server. Our Mac will syn the photos by downloading the photos from
-            the icloud server, but the default setting may diff, so we should set the settings which
-            I will detailed below. And then the Mac get the raw photos just like you see it in your
-            iphone. We are just upload the photoslibrary file to the SSD which can be opened by Mac
-            which maintains all the details and the structure. Now we delete the uploaded photos in
-            our iphone because we get a copy of the photos and they stay in our SSD (Remember to
-            delete the photos in your iphone photos trash). We spare the icloud space in this way
-            because the deleted photos in your iphone will deleted in icloud. Actually there will be
-            no photos in you icloud server if you successfully finished the above process. Now let us
-            move to the Mac. Open photos in the way which provided below and then creat a new photoslibrary
-            that end up with the photoslibrary extension. And set the new photoslibrary to be the system
-            photoslibrary because only in this way we can syn photos from the icloud and download the
-            original format to our Mac. Now delete the uploaded photoslibrary and if your iphone still
-            have some photos that did not syned to icloud, it will syned to icloud automatically and
-            then the Mac will download the photos from icloud and after it finished you can creat a
-            new photoslibrary and set it system photoslibrary and upload the syned photoslibrary then
-            delete it to spare space for your Mac.
-          </p>
+            <div></div>
 
-          <div></div>
+            <p>
+              Here is the detailed process demonstrated by pocessing picture in my Mac and iphone.
+            </p>
 
-          <p>
-            Here is the detailed process demonstrated by pocessing picture in my Mac and iphone.
-          </p>
+            <div></div>
 
-          <div></div>
+            <p>
+              First of all, we should open photo app in Mac just like showed in Fig.1 (First make
+              sure there is no photos app opend). 
+            </p>
+            <img src="../posts-passage/1iphotos-images/photos open page.png">
+            <p class="fig-statement"><strong>Fig.1.</strong> Open photos App in this page</p>
 
-          <p>
-            First of all, we should open photo app in Mac just like showed in Fig.1 (First make
-            sure there is no photos app opend). 
-          </p>
-          <img src="../posts-passage/1iphotos-images/photos open page.png">
-          <p class="fig-statement"><strong>Fig.1.</strong> Open photos App in this page</p>
+            <div></div>
 
-          <div></div>
+            <p>
+              Open photos: click left button of mouse with the option keyboard pressed. The result
+              showed in Fig.2 after you open photos in this way.
+            </p>
+            <img src="../posts-passage/1iphotos-images/after click the photos app.png">
+            <p class="fig-statement"><strong>Fig.2.</strong> After click the photos App</p>
 
-          <p>
-            Open photos: click left button of mouse with the option keyboard pressed. The result
-            showed in Fig.2 after you open photos in this way.
-          </p>
-          <img src="../posts-passage/1iphotos-images/after click the photos app.png">
-          <p class="fig-statement"><strong>Fig.2.</strong> After click the photos App</p>
+            <div></div>
 
-          <div></div>
+            <p>
+              Now we create a new photoslibrary and set it system photoslibrary showed in Fig.3.
+              Here my now photoslibrary is called Photos Library 11.photoslibrary. Remember to end
+              by the photoslibrary extension.
+            </p>
+            <img src="../posts-passage/1iphotos-images/creat a new photoslibrary.png">
+            <p class="fig-statement"><strong>Fig.3.</strong> Create a new photoslibrary</p>
 
-          <p>
-            Now we create a new photoslibrary and set it system photoslibrary showed in Fig.3.
-            Here my now photoslibrary is called Photos Library 11.photoslibrary. Remember to end
-            by the photoslibrary extension.
-          </p>
-          <img src="../posts-passage/1iphotos-images/creat a new photoslibrary.png">
-          <p class="fig-statement"><strong>Fig.3.</strong> Create a new photoslibrary</p>
+            <div></div>
 
-          <div></div>
+            <p>
+              Set the new photoslibrary to be the system photoslibrary. Demonstrated in
+              Fig.4.
+            </p>
+            <img src="../posts-passage/1iphotos-images/set system photoslibrary.png">
+            <p class="fig-statement"><strong>Fig.4.</strong> Set system photoslibrary</p>
 
-          <p>
-            Set the new photoslibrary to be the system photoslibrary. Demonstrated in
-            Fig.4.
-          </p>
-          <img src="../posts-passage/1iphotos-images/set system photoslibrary.png">
-          <p class="fig-statement"><strong>Fig.4.</strong> Set system photoslibrary</p>
+            <p>
+              To download photos from icloud and download original format. Demonstrated in
+              Fig.5.
+            </p>
+            <img src="../posts-passage/1iphotos-images/turn on download option.png">
+            <p class="fig-statement"><strong>Fig.5.</strong> Turn on the downloading option</p>
 
-          <p>
-            To download photos from icloud and download original format. Demonstrated in
-            Fig.5.
-          </p>
-          <img src="../posts-passage/1iphotos-images/turn on download option.png">
-          <p class="fig-statement"><strong>Fig.5.</strong> Turn on the downloading option</p>
+            <div></div>
 
-          <div></div>
+            <p>
+              Now I have upload part of my photos to SSD and delete it from my iphone and
+              then the icloud will delete it also. And set a new photoslibrary to syn the
+              new photos that will upload to icloud because the icloud have spared some space
+              because our deleting procedure which demonstrats in Fig.6.
+            </p>
+            <img src="../posts-passage/1iphotos-images/syning status of Mac and uploading status of iphone.png">
+            <p class="fig-statement"><strong>Fig.6.</strong> Uploading status of iphone and Syn status of Mac</p>
 
-          <p>
-            Now I have upload part of my photos to SSD and delete it from my iphone and
-            then the icloud will delete it also. And set a new photoslibrary to syn the
-            new photos that will upload to icloud because the icloud have spared some space
-            because our deleting procedure which demonstrats in Fig.6.
-          </p>
-          <img src="../posts-passage/1iphotos-images/syning status of Mac and uploading status of iphone.png">
-          <p class="fig-statement"><strong>Fig.6.</strong> Uploading status of iphone and Syn status of Mac</p>
+            <div></div>
 
-          <div></div>
+            <p>
+              After Mac syn is finished which demonstrated in Fig.7 you can should copy the photoslibrary to you SSD
+              which demonstrated in Fig.8. And now you have you server's photo in your SSD, so you should can delete
+              your photos in your iphone and then the server's space will also be spared. After that, you should creat
+              a new photoslibrary just like Fig.3 and set it be system photoslibrary just the same in Fig.4. The new
+              photoslibrary will syn the new photos once there is new photo shotted by your iphone.
+            </p>
+            <img src="../posts-passage/1iphotos-images/finish syn status of Mac.png">
+            <p class="fig-statement"><strong>Fig.7.</strong> finish syn status of Mac</p>
 
-          <p>
-            After Mac syn is finished which demonstrated in Fig.7 you can should copy the photoslibrary to you SSD
-            which demonstrated in Fig.8. And now you have you server's photo in your SSD, so you should can delete
-            your photos in your iphone and then the server's space will also be spared. After that, you should creat
-            a new photoslibrary just like Fig.3 and set it be system photoslibrary just the same in Fig.4. The new
-            photoslibrary will syn the new photos once there is new photo shotted by your iphone.
-          </p>
-          <img src="../posts-passage/1iphotos-images/finish syn status of Mac.png">
-          <p class="fig-statement"><strong>Fig.7.</strong> finish syn status of Mac</p>
+            <img src="../posts-passage/1iphotos-images/copy photoslibrary to SSD.png">
+            <p class="fig-statement"><strong>Fig.8.</strong> copy photoslibrary to SSD</p>
 
-          <img src="../posts-passage/1iphotos-images/copy photoslibrary to SSD.png">
-          <p class="fig-statement"><strong>Fig.8.</strong> copy photoslibrary to SSD</p>
-
-        <div style="height: 50px; background-color: white; border-bottom: 1px solid gray; margin-bottom: 25px;"></div>
-        <div class="contact">contact</div>
-      </section>
-      <div class="space-col"></div>
-    </main>
+          <div style="height: 50px; background-color: white; border-bottom: 1px solid gray; margin-bottom: 25px;"></div>
+          <div class="contact">contact</div>
+        </section>
+        <div class="space-col"></div>
+      </main>
+    </div>
   </body>
 </html>
