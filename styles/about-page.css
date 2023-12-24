@@ -1,8 +1,12 @@
 section {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1000px 1fr;
+  grid-template-columns: 10% 80% 10%;
   background-color: rgb(237, 245, 188);
+}
+
+section .text {
+  overflow-wrap: break-word;
 }
 
 section .title {
@@ -13,7 +17,7 @@ section .title {
 }
 
 section div .author-info {
-  background-color: white;
+  background-color: transparent;
   display: grid;
   grid-template-columns: 65px 1fr;
   justify-content: start;
